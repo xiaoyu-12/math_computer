@@ -1,0 +1,70 @@
+.leadership {
+    width: 980px;
+    height: 1550px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.top {
+    position: fixed;
+    left: 90%;
+    top: 50%;
+}
+
+.top::before {
+    font-family: 'icomoon';
+    content: '\ea41';
+    font-size: 20px;
+}
+
+.hd_leadership {
+    height: 33px;
+    line-height: 33px;
+    background: linear-gradient(rgb(226, 226, 226), rgb(253, 253, 253));
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.hd_leadership h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.hd_leadership .location1 {
+    float: right;
+}
+
+.bd_leadership {
+    position: relative;
+    height: 1512px;
+    border: 1px solid #ccc;
+    background-color: rgba(240, 240, 240, .1);
+}
+
+.bd_leadership .box ul li {
+    text-align: center;
+    margin: 40px;
+}
+
+.bd_leadership .box ul li img {
+    width: 200px;
+    height: 260px;
+}
+
+.bd_leadership .box ul li h2 {
+    font-family: '宋体';
+    font-size: 19px;
+    margin: 20px;
+}
+
+.bd_leadership .img1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 377px;
+    height: 109px;
+    background: url(../images/2_c10.png) no-repeat 5px;
+}

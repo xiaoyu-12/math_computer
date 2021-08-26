@@ -1,0 +1,97 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.login_id {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.login_id h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login_form {
+    width: 600px;
+    margin: 50px 0 0 430px;
+}
+
+.login_form form {
+    margin-top: 115px;
+}
+
+.login_form ul li {
+    margin-bottom: 20px;
+}
+
+.login_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.login_form ul li .inp {
+    width: 243px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 100px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+.copyright a {
+    color: blue;
+}

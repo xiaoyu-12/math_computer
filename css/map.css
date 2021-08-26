@@ -1,0 +1,76 @@
+.map {
+    width: 980px;
+    height: 830px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hd_map {
+    height: 33px;
+    line-height: 33px;
+    background: linear-gradient(rgb(226, 226, 226), rgb(253, 253, 253));
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.hd_map h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.hd_map .location1 {
+    float: right;
+}
+
+.bd_map {
+    height: 790px;
+    width: 980px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.bd_map table {
+    width: 100%;
+    height: 80%;
+}
+
+.bd_map table tr th {
+    width: 20%;
+}
+
+.bd_map table tr td {
+    width: 80%;
+}
+
+.bd_map table tr {
+    background-color: rgb(241, 248, 253);
+}
+
+.bd_map table,
+tr,
+th,
+td {
+    border: 1px solid #b8cced;
+    font-size: 12px;
+    /* 合并相邻的边框 */
+    /* border-collapse: collapse; */
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+}
+
+.bd_map table ul li {
+    margin: 0 20px;
+    float: left;
+}
+
+.bd_map .img1 {
+    float: right;
+    width: 377px;
+    height: 109px;
+    padding-top: 174px;
+    background: url(../images/2_c10.png) no-repeat 5px;
+}

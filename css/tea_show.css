@@ -1,0 +1,76 @@
+.tea_show {
+    width: 980px;
+    height: 1000px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hd_tea_show {
+    height: 33px;
+    line-height: 33px;
+    background: linear-gradient(rgb(226, 226, 226), rgb(253, 253, 253));
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.hd_tea_show h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.hd_tea_show .location1 {
+    float: right;
+}
+
+.bd_tea_show {
+    position: relative;
+    height: 970px;
+    border: 1px solid #ccc;
+}
+
+.bd_tea_show .box {
+    height: 80%;
+    margin-left: 5px;
+}
+
+.bd_tea_show .box ul li {
+    float: left;
+    width: 300px;
+    height: 230px;
+    border-bottom: 1px dashed #ccc;
+    margin: 20px 11px 0 11px;
+}
+
+.bd_tea_show .box ul a {
+    display: block;
+    font-family: '宋体';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bd_tea_show .box ul a:hover {
+    color: rgb(140, 15, 26);
+}
+
+.bd_tea_show .box ul li img {
+    width: 300px;
+    height: 195px;
+    object-fit: cover;
+}
+
+.bd_tea_show .img1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 377px;
+    height: 20%;
+    background: url(../images/2_c10.png) no-repeat 5px;
+}

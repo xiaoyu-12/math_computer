@@ -1,0 +1,83 @@
+.introduce {
+    width: 980px;
+    height: 1680px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.top {
+    position: fixed;
+    left: 90%;
+    top: 50%;
+}
+
+.top::before {
+    font-family: 'icomoon';
+    content: '\ea41';
+    font-size: 20px;
+}
+
+
+.hd_introduce {
+    height: 33px;
+    line-height: 33px;
+    background: linear-gradient(rgb(226, 226, 226), rgb(253, 253, 253));
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.hd_introduce h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.hd_introduce .location1 {
+    float: right;
+}
+
+.bd_introduce {
+    position: relative;
+    height: 1630px;
+    border: 1px solid #ccc;
+    background-color: rgba(240, 240, 240, .1);
+}
+
+.bd_introduce .box h3 {
+    font-weight: bold;
+    font-size: 14pt;
+    color: #1556b8;
+    line-height: 150%;
+    font-family: 宋体;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bd_introduce .box p {
+    font-size: 10pt;
+    color: #5e5e5e;
+    line-height: 150%;
+    font-family: 宋体;
+    margin: 20px 30px;
+}
+
+.bd_introduce .box span {
+    font-family: 宋体;
+    font-size: 14pt;
+}
+
+.bd_introduce .box img {
+    width: 100%;
+    padding: 30px;
+}
+
+.bd_introduce .img1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 377px;
+    height: 109px;
+    background: url(../images/2_c10.png) no-repeat 5px;
+}

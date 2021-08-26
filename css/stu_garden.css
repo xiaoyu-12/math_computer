@@ -1,0 +1,79 @@
+.stu_garden {
+    width: 980px;
+    height: 450px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hd_stu_garden {
+    height: 33px;
+    line-height: 33px;
+    background: linear-gradient(rgb(226, 226, 226), rgb(253, 253, 253));
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.hd_stu_garden h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.hd_stu_garden .location1 {
+    float: right;
+}
+
+.bd_stu_garden {
+    position: relative;
+    height: 413px;
+    border: 1px solid #ccc;
+}
+
+.bd_stu_garden .box1 {
+    height: 35%;
+}
+
+.bd_stu_garden .box2 {
+    height: 35%;
+}
+
+.bd_stu_garden .box_space {
+    height: 10%;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.329);
+    padding-left: 300px;
+}
+
+.bd_stu_garden .box_space ul li {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.bd_stu_garden .box_space ul li a {
+    color: rgb(54, 74, 163);
+}
+
+.bd_stu_garden ul li {
+    height: 20px;
+    margin: 10px;
+}
+
+.bd_stu_garden ul li a:hover {
+    color: rgb(204, 0, 0);
+}
+
+.bd_stu_garden .rf {
+    float: right;
+}
+
+
+.bd_stu_garden .img1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 377px;
+    height: 109px;
+    background: url(../images/2_c10.png) no-repeat 5px;
+}

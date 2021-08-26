@@ -1,0 +1,69 @@
+.org_life {
+    width: 980px;
+    height: 450px;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hd_org_life {
+    height: 33px;
+    line-height: 33px;
+    background: linear-gradient(rgb(226, 226, 226), rgb(253, 253, 253));
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.hd_org_life h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.hd_org_life .location1 {
+    float: right;
+}
+
+.bd_org_life {
+    position: relative;
+    height: 413px;
+    border: 1px solid #ccc;
+}
+
+.bd_org_life .box1 {
+    height: 35%;
+}
+
+.bd_org_life .box2 {
+    height: 35%;
+}
+
+.bd_org_life .box_space {
+    height: 10%;
+    border-top: 1px dashed rgba(0, 0, 0, 0.329);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.329);
+}
+
+.bd_org_life ul li {
+    height: 20px;
+    margin: 10px;
+}
+
+.bd_org_life ul li a:hover {
+    color: rgb(204, 0, 0);
+}
+
+.bd_org_life .rf {
+    float: right;
+}
+
+
+.bd_org_life .img1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 377px;
+    height: 109px;
+    background: url(../images/2_c10.png) no-repeat 5px;
+}
