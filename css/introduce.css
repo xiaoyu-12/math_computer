@@ -42,7 +42,7 @@
     position: relative;
     height: 1630px;
     border: 1px solid #ccc;
-    background-color: rgba(240, 240, 240, .1);
+    background-color: #fff;
 }
 
 .bd_introduce .box h3 {
@@ -69,8 +69,7 @@
 }
 
 .bd_introduce .box img {
-    width: 100%;
-    padding: 30px;
+    margin-left: 216px;
 }
 
 .bd_introduce .img1 {
